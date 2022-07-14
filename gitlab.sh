@@ -9,7 +9,7 @@ echo "Now, we need the project ID (you can get it through the gitlab api):"
 read -sr GITLAB_PROJECT_ID
 
 echo "What is the git branch you're fetching from (defaults to 'main')?"
-read -sr GIT_BRANCH
+read -r GIT_BRANCH
 
 SLASH="%2F"
 
